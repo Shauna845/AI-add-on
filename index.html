@@ -4,43 +4,63 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+    </div>
+    <div class="footer-container">
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Shauna845" target="_blank" class="link"
+          >Shauna Bratten</a
+        >
+        and is
+        <a
+          href="https://github.com/Shauna845/AI-add-on"
+          target="_blank"
+          class="link"
+          >open-sourced on GitHub
+        </a>
+        and is hosted on
+        <a
+          href="https://sb-ai-poem-generator.netlify.app/"
+          target="_blank"
+          class="link"
+        >
+          Netlify</a
+        >
+      </footer>
+    </div>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Shauna845" target="_blank">Shauna Bratten</a>
-      and is
-      <a href="https://github.com/Shauna845/AI-add-on" target="_blank"
-        >open-sourced on GitHub
-      </a>
-      and is hosted on
-      <a href="https://sb-ai-poem-generator.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>
