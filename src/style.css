@@ -39,8 +39,15 @@ h1 {
   line-height: 1.5;
 }
 form {
-  padding: 30px;
+  padding: 0 20px 0 20px;
   display: flex;
+}
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 .instructions {
   padding: 16px;
@@ -69,8 +76,16 @@ form {
   padding: 20px;
   line-height: 24px;
 }
-
 .poem i {
   color: #1c226b;
   font-weight: 800;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
 }
