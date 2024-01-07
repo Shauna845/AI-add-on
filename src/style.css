@@ -23,7 +23,7 @@ footer {
   padding: 5px 10px 10px 10px;
 }
 .footer-container {
-  margin: 120px auto;
+  margin: 30px auto;
   max-width: 600px;
   background-color: #d1fffa;
   border-radius: 50px;
@@ -68,4 +68,9 @@ form {
   font-size: 16px;
   padding: 20px;
   line-height: 24px;
+}
+
+.poem i {
+  color: #1c226b;
+  font-weight: 800;
 }
